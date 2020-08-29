@@ -29,7 +29,7 @@ def autocommenter(count):
 			time.sleep(2)
 			count-=1
 		except Exception as exc:
-			print("Error Ocurr : ",exc)
+			print("Error Ocurred : ",exc)
 
 
 def main(cli):
