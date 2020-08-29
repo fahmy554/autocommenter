@@ -24,9 +24,9 @@ def autocommenter(count):
 		try:
 			pyautogui.typewrite(f"{random_start()}  {randocomment()}  : Comment Number  [{start}] ")
 			start+=1
-			time.sleep(.1)
+			time.sleep(.5)
 			pyautogui.press("\n")
-			time.sleep(1)
+			time.sleep(1.1)
 			count-=1
 		except Exception as exc:
 			print("Error Ocurred : ",exc)
