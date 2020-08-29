@@ -1,7 +1,7 @@
 import pyautogui,random,time,threading,argparse
 from random import choice
 
-comments = ["hi","down","up","..",">>","hello","fahmy","mohamed","omar",random.randint(0,60)]
+comments = ["hi","down","up","..",">>","hello","fahmy","mohamed","omar",random.randint(0,60),78,569]
 """ list of comments>> according to your requirement you can change it"""
 
 starting=["this is new comment","update the comments by","adding new comment by content",1,4,65,54,23,212,265,746]
