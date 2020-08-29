@@ -22,7 +22,7 @@ def autocommenter(count):
 
 		# pyautogui.press
 		try:
-			pyautogui.typewrite(f"{random_start()} Start {randocomment()} End : Comment Number  [{start}] ")
+			pyautogui.typewrite(f"{random_start()} {randocomment()}  \n : Comment Number  [{start}] ")
 			start+=1
 			time.sleep(1)
 			pyautogui.press("\n")
